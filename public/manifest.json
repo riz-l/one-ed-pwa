@@ -1,6 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "theme_color": "#2a2a2e",
+  "background_color": "#11bac1",
+  "display": "standalone",
+  "scope": ".",
+  "start_url": ".",
+  "app_name": "OneED",
+  "short_name": "OneED",
+  "name": "OneED",
+  "description": "Emergency Department overview, triage and treatment solution",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,13 +20,19 @@
       "sizes": "192x192"
     },
     {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
