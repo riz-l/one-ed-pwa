@@ -38,7 +38,7 @@ export const Text = styled.label`
 // Element: VisualBox
 export const VisualBox = styled.div`
   align-items: center;
-  background: ${({ checked }) => (checked ? "#11bac1" : "#d4d4d8")};
+  background: ${({ checked }) => (checked ? "#008ba3" : "#d4d4d8")};
   border-radius: 50%;
   content: "";
   cursor: pointer;
@@ -56,7 +56,7 @@ export const VisualBox = styled.div`
   }
 
   &:hover {
-    background: ${({ checked }) => (checked ? "#0fa4a9" : "#bfbfc5")};
+    background: ${({ checked }) => (checked ? "#00687a" : "#bfbfc5")};
     transition: all 100ms linear;
 
     & svg {
